@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Felink</title>
+    <link rel="stylesheet" type="text/css" href="app/styles/app.css">
+    <link rel="stylesheet" type="text/css" href="app/styles/screen.css">
+    <link rel="stylesheet" type="text/css"
+          href="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+<body ng-app="app">
+
+<div ng-include="'app/views/partials/navbar.html'"></div>
+
+<div ng-view></div>
+
+<div ng-include="'app/views/partials/footer.html'"></div>
+
+
+<!-- In production use:
+<script src="//ajax.googleapis.com/ajax/libs/angularjs/x.x.x/angular.min.js"></script>
+-->
+<!--<script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-2.1.3.js"></script>-->
+
+<script src="app/bower_components/angular/angular.js"></script>
+<script src="app/bower_components/angular-route/angular-route.js"></script>
+<script src="app/bower_components/ng-dialog/js/ngDialog.js"></script>
+<script src="app/bower_components/ng-dialog/css/ngDialog.css"></script>
+<script src="app/bower_components/ng-dialog/css/ngDialog-theme-default.css"></script>
+
+<script src="app/scripts/ui-bootstrap-tpls-2.1.3.js"></script>
+<script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+<script src="http://cdn.static.runoob.com/libs/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+
+<!--scripts.js-->
+<script src="app/scripts/app.js"></script>
+<script src="app/scripts/controllers/main.js"></script>
+<script src="app/scripts/controllers/about.js"></script>
+<script src="app/scripts/controllers/disclaimer.js"></script>
+<script src="app/scripts/controllers/indulged.js"></script>
+<script src="app/scripts/controllers/join.js"></script>
+<script src="app/scripts/controllers/privacy.js"></script>
+<script src="app/scripts/controllers/problem.js"></script>
+<script src="app/scripts/controllers/support.js"></script>
+<script src="app/scripts/controllers/wechat.js"></script>
+<script src="app/scripts/controllers/footer.js"></script>
+<script src="app/scripts/controllers/navbar.js"></script>
+
+
+</body>
+</html>
